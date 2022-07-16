@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Header() {
   return (
    <center>
-    <nav className="bg-gray-100 shadow dark:bg-gray-800 w-fit rounded-md mt-2 bg-white ">
+    <nav className="shadow dark:bg-gray-800 w-fit rounded-md mt-2 bg-white ">
         <div className="container flex items-center justify-center text-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
             <a href="/" className="scroll-smooth text-gray-800 transition-colors duration-200 transform dark:text-gray-200  rounded-md px-2 py-2 hover:text-white hover:bg-purple-500 mx-1.5 sm:mx-6">home</a>
               
