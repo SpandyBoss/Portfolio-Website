@@ -11,10 +11,10 @@ function notFound() {
       <h1 className="mb-4 text-2xl font-extrabold leading-tight tracking-tight text-left text-gray-900 md:text-4xl">Oops! The page you&apos;re looking for isn&apos;t here.</h1>
       <p className="mb-5 text-base text-left text-gray-800 md:text-xl">You might have the wrong address, or the page may have moved.</p>
       <Link href="/"><a className="w-fit mb-2 btn btn-lg btn-light sm:w-auto sm:mb-0"> Back to homepage</a></Link>
-      <a href="#" className="w-full mb-2 btn btn-lg btn-white sm:w-auto sm:mb-0">Contact us</a>
+      {/* <a href="#" className="w-full mb-2 btn btn-lg btn-white sm:w-auto sm:mb-0">Contact us</a> */}
     </div>
     <div>
-      <div className="w-full h-full py-48 bg-gray-200 rounded-lg"></div>
+      <img src="https://dummyimage.com/600x400/2f2f2f/f2f2f2&text=404+Not+Found+!"/>
     </div>
   </div>
 </section>
