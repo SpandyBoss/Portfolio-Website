@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Project 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "imageUrl": "/project1.jpg",
+      "repoLink": "https://github.com/project1"
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imageUrl": "/project2.jpg",
+      "repoLink": "https://github.com/project2"
+    }
+  ]
+  

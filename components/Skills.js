@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 
 export default function Skills() {
@@ -8,9 +10,9 @@ export default function Skills() {
       </div>
      
       <div className="mb-4 mt-4">
-        <p className="sm:w-2/5 dark:text-white text-gray-900 font-medium title-font text-3xl  sm:mb-0"># Skills</p>
+        <p className="sm:w-2/5 dark:text-white text-gray-900 font-medium title-font text-3xl md:w-fit bg-yellow-400 p-2 rounded-md text-center shadow-md  sm:mb-0"># Skills</p>
        
-        <p className="sm:w-3/5 leading-relaxed text-gray-500 text-xl">These are the skills/apps I know</p>
+        <p className="sm:w-3/5 leading-relaxed text-gray-500 mt-2 text-xl">These are the skills/apps I know</p>
        
       </div> 
       <center>

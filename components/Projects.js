@@ -4,20 +4,18 @@ import Image from 'next/image'
 // import pwd from '../public/screenshots/pwd.png'
 // import tws from '../public/screenshots/tws.png'
 
-export default function Projects() {
+export default function ProjectsCard() {
   return (
     <div id="proj">
-        <section className="text-gray-600 body-font dark:bg-gray-800 dark:text-gray-400 -mt-2">
-  <div className="container px-5 py-24 mx-auto ">
+        <section className="text-gray-600 body-font dark:bg-gray-800 dark:text-gray-400 ">
+  <div className="container px-5  mx-auto ">
     <div className="flex flex-col">
-      <div className="h-1 bg-gray-200 rounded overflow-hidden">
-        <div className=" h-full bg-gray-200"></div>
-      </div>
+      
       <br />
       <div className="mb-20 ">
-        <p className="sm:w-2/5 dark:text-white text-gray-900 font-medium title-font text-3xl  sm:mb-0"># Projects</p>
+        <p className="sm:w-2/5 dark:text-white text-gray-900 font-medium title-font text-3xl  bg-yellow-400 p-2 rounded-md md:w-fit text-center shadow-md sm:mb-0"># Projects</p>
        
-        <p className="sm:w-3/5 leading-relaxed  text-xl">Here are some of the projects that I&apos;ve made</p>
+        <p className="sm:w-3/5 leading-relaxed mt-2 text-xl">Here are some of the projects that I&apos;ve made</p>
        
       </div>
     </div>
@@ -28,7 +26,7 @@ export default function Projects() {
         </div>
         <h2 className="text-xl font-medium title-font dark:text-white text-gray-900 mt-5">Blog- Tech With Spandy</h2>
         <p className="text-base leading-relaxed mt-2">My blog website, which I made using TailwindCss & NextJs</p>
-        <a href='https://techwithspandy.tk' target='_blank' rel='noreferrer' className="text-blue-400 inline-flex items-center mt-3">Visit
+        <a href='https://techwithspandy.tk' target='_blank' rel='noreferrer' className="text-yellow-500 font-bold inline-flex items-center mt-3">Visit
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -41,7 +39,7 @@ export default function Projects() {
         </div>
         <h2 className="text-xl font-medium title-font text-gray-900 dark:text-white mt-5">Passwrdd</h2>
         <p className="text-base leading-relaxed mt-2">A website that generates strong and customisable passwords</p>
-        <a href='https://passwrdd.vercel.app' target='_blank' rel='noreferrer' className="text-blue-400 inline-flex items-center mt-3">Visit
+        <a href='https://passwrdd.vercel.app' target='_blank' rel='noreferrer' className="text-yellow-500 font-bold inline-flex items-center mt-3">Visit
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -53,7 +51,7 @@ export default function Projects() {
         </div>
         <h2 className="text-xl font-medium title-font text-gray-900 dark:text-white mt-5">Weather App</h2>
         <p className="text-base leading-relaxed mt-2">Weather App</p>
-        {/* <a className="text-blue-400 inline-flex items-center mt-3">Learn More
+        {/* <a className="text-yellow-500 font-bold inline-flex items-center mt-3">Learn More
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -65,7 +63,7 @@ export default function Projects() {
         </div>
         <h2 className="text-xl font-medium title-font text-gray-900 dark:text-white mt-5">Rock Paper and Scissors Game</h2>
         <p className="text-base leading-relaxed mt-2">Rock Paper and Scissors Game I made in python.</p>
-        <a className="text-blue-400 inline-flex items-center mt-3" href='https://replit.com/@SpandyBoss/Rock-Paper-Scissors-Game?v=1'>Learn More
+        <a className="text-yellow-500 font-bold inline-flex items-center mt-3" href='https://replit.com/@SpandyBoss/Rock-Paper-Scissors-Game?v=1'>Learn More
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -77,7 +75,7 @@ export default function Projects() {
         </div>
         <h2 className="text-xl font-medium title-font text-gray-900 dark:text-white mt-5">Tip Calculator</h2>
         <p className="text-base leading-relaxed mt-2">A Tip Calculator program made in python.</p>
-        <a className="text-blue-400 inline-flex items-center mt-3" href='https://replit.com/@SpandyBoss/Tip-Calculator?v=1'>Learn More
+        <a className="text-yellow-500 font-bold inline-flex items-center mt-3" href='https://replit.com/@SpandyBoss/Tip-Calculator?v=1'>Learn More
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -89,7 +87,7 @@ export default function Projects() {
         </div>
         <h2 className="text-xl font-medium title-font text-gray-900 dark:text-white mt-5">Treasure Island</h2>
         <p className="text-base leading-relaxed mt-2">Treasure Island adventure game made in python</p>
-        <a className="text-blue-400 inline-flex items-center mt-3" href='https://replit.com/@SpandyBoss/Treasure-Island-Game?v=1'>Learn More
+        <a className="text-yellow-500 font-bold inline-flex items-center mt-3" href='https://replit.com/@SpandyBoss/Treasure-Island-Game?v=1'>Learn More
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>

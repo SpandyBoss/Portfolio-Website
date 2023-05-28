@@ -11,7 +11,7 @@ export default function Footer() {
                 <div className="w-full -mx-6 lg:w-2/5">
                     <div className="px-6">
                         <div>
-                            <a href="#" className="text-xl font-bold text-blue-500 dark:text-blue-400 hover:text-gray-800 dark:hover:text-gray-300">Spandan&apos;s Portfolio</a>
+                            <a href="#" className="text-xl font-bold text-yellow-500 dark:text-yellow-400 hover:text-gray-800 dark:hover:text-gray-300">Spandan&apos;s Portfolio</a>
                         </div>
                         
                     </div>
